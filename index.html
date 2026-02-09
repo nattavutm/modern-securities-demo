@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernSecurities | Future of Investing on Cloudflare</title>
+    <meta name="description" content="Modern, fast, and secure securities system powered by Cloudflare Workers">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <nav id="main-nav">
+        <div class="container">
+            <div class="logo">Modern<span>Securities</span></div>
+            <ul class="nav-links">
+                <li><a href="#market">Markets</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#portfolio">Your Portfolio</a></li>
+            </ul>
+            <div class="nav-cta">
+                <button class="btn btn-secondary">Login</button>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge">Cloudflare Powered</span>
+                    <h1>Experience <br><span class="gradient-text">Modern Investing</span></h1>
+                    <p>High-speed trading system operating globally on Cloudflare Workers. Access the stock market from
+                        anywhere, anytime, with maximum security.</p>
+                    <div class="hero-btns">
+                        <button class="btn btn-primary btn-large">Open Free Account</button>
+                        <button class="btn btn-ghost btn-large">Watch Demo</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card main-chart-preview">
+                        <canvas id="hero-chart"></canvas>
+                        <div class="chart-info">
+                            <span class="stock-name">SET Index</span>
+                            <span class="stock-price">1,412.30</span>
+                            <span class="stock-change status-up">+1.24%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="market">
+            <div class="container">
+                <h2 class="section-title">Market Status</h2>
+                <div class="market-grid">
+                    <!-- Cards will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="feature-card glass-card">
+                    <h3>Edge Computing Performance</h3>
+                    <p>Millisecond speed with processing on Cloudflare's Edge network.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <h3>Global Security</h3>
+                    <p>Protect your portfolio with world-class WAF and Bot Management.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <h3>Real-time Sync</h3>
+                    <p>Never miss a beat with WebSockets and Durable Objects.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ModernSecurities. Created by <strong>Bank Nattavut</strong> for demo purposes.</p>
+            <p class="small text-muted">Powered by Cloudflare Applications.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
